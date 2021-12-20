@@ -1,0 +1,42 @@
+.CartContainer {
+    .Left {
+        .Product {
+            background-color: #FFFFFF;
+            border: 1px solid #e7e7e7 !important;
+            box-shadow: 0px 2px 4px -2px rgba(0,0,0,0.5);
+            margin-bottom: 1em;
+            .ProductImage {
+                padding: 1em;
+                img {
+                    width: 100%;
+                    max-width: 50px;
+                }
+            }
+
+            .ProductTitle {
+                padding: 1em;
+                span {
+                    font-size: 0.8em;
+                    font-weight: bold;
+                }
+
+                .ProductCount {
+                    width: 30%;
+                }
+            }
+
+            .ProductAction {
+                padding: 1em;
+            }
+        }
+    }
+
+    .Right {
+        .PriceDetails {
+            background-color: #FFFFFF;
+            border: 1px solid #e7e7e7 !important;
+            box-shadow: 0px 2px 4px -2px rgba(0,0,0,0.5);
+            padding: 1em;
+        }
+    }
+}
